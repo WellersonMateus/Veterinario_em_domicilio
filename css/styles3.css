@@ -1,0 +1,23 @@
+.botao-whatsapp {
+    position: fixed; /* Posicionamento fixo na tela */
+    bottom: 20px; /* Distância da borda inferior */
+    right: 20px;  /* Distância da borda direita */
+    z-index: 1000; /* Camada superior para sobrepor outros elementos */
+    width: 100px; /* Largura do botão */
+    height: 50px; /* Altura do botão */
+    border-radius: 35%; /* Borda arredondada */
+    background-color: #25d365; /* Cor do fundo verde do WhatsApp */
+    text-align: center; /* Alinhamento do texto no centro */
+    line-height: 50px; /* Altura da linha igual à altura do botão */
+    color: white; /* Cor do texto branco */
+    font-size: 24px; /* Tamanho da fonte */
+    transition: all 0.3s ease; /* Efeito de transição suave */
+}
+
+.botao-whatsapp:hover { /* Efeito hover */
+    background-color: #1abf4e; /* Verde mais escuro ao passar o mouse */
+}
+
+.botao-whatsapp i { /* Estilizando o ícone do FontAwesome */
+    font-family: FontAwesome; /* Carregando a fonte FontAwesome */
+}
